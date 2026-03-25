@@ -6,6 +6,8 @@ import paquetes.TablasMultiplicar;
 import enums.UsoEnum;
 import initializer.UsoInitializer;
 import parametros.PasoParametros;
+import modificadores.UsoAcceso;
+import encapsulacion.UsoEncapsulacion;
 
 public class Main {
 
@@ -31,7 +33,17 @@ public class Main {
         // Ejecutar PasoParametros
         PasoParametros.ejecutar();
         
+        // Ejecutar UsoAcceso
+        UsoAcceso.ejecutar();
+        
+        // Ejecutar encapsulacion/UsoEncapsulacion
+        UsoEncapsulacion.ejecutar();
+        
         System.out.println("=== Fin Semana 1 ===");
+        System.out.println("====================");
+        System.out.println("====================");
+        System.out.println("=== Fin Semana 2 ===");
+        
     }
 }
 

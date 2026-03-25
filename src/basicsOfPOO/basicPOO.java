@@ -18,3 +18,4 @@ public class basicPOO {
         System.out.println("Área del rectángulo: " + area);
     }
 }
+
