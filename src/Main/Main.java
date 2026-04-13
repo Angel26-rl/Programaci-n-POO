@@ -8,6 +8,8 @@ import initializer.UsoInitializer;
 import parametros.PasoParametros;
 import modificadores.UsoAcceso;
 import encapsulacion.UsoEncapsulacion;
+import herencia.UsoHerencia;
+
 
 public class Main {
 
@@ -39,10 +41,17 @@ public class Main {
         // Ejecutar encapsulacion/UsoEncapsulacion
         UsoEncapsulacion.ejecutar();
         
+        // Ejecutar herencia
+        UsoHerencia.ejecutar();
+        
+        
         System.out.println("=== Fin Semana 1 ===");
         System.out.println("====================");
         System.out.println("====================");
         System.out.println("=== Fin Semana 2 ===");
+        System.out.println("====================");
+        System.out.println("====================");
+        System.out.println("=== Fin Semana 3 ===");
         
     }
 }
