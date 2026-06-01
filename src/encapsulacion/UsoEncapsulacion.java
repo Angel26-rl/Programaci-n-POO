@@ -12,10 +12,14 @@ public class UsoEncapsulacion {
 
         // Crear producto
         Producto producto = new Producto("Laptop", 5);
+        
+        System.out.println("======================");
+        System.out.println("=== 🔎 laptop/Laptop ====");
+        System.out.println("======================");
 
         System.out.print("Ingrese el nombre del producto que busca: ");
         String busqueda = entrada.nextLine();
-
+        
         // Comparar
         if (busqueda.equalsIgnoreCase(producto.getNombre())) {
 

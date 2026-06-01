@@ -10,6 +10,11 @@ import modificadores.UsoAcceso;
 import encapsulacion.UsoEncapsulacion;
 import herencia.UsoHerencia;
 import oL_oR.UsooL_oR;
+import fundamentos.FundamentosJava;
+import abstraccion.UsoAbstraccion;
+import interfaces.UsoInterfaces;
+import staticKeyword.UsoStatic;
+import conceptosAvanzados.ConceptosAvanzados;
 
 public class Main {
 
@@ -47,6 +52,21 @@ public class Main {
         // Ejecutar Overloading y Overriding
         UsooL_oR.ejecutar();
         
+        // Ejecutar Fundamentos
+        FundamentosJava.ejecutar();
+        
+        // Ejecutar abstracción
+        UsoAbstraccion.ejecutar();
+        
+        // Ejecutar Interfaces
+        UsoInterfaces.ejecutar();
+        
+        // Ejecutar Static Keyword
+        UsoStatic.ejecutar();
+        
+        // Ejecutar Conceptos Avanzados
+        ConceptosAvanzados.ejecutar();
+        
         System.out.println("==== Fin Semana 1 ====");
         System.out.println("======================");
         System.out.println("======================");
@@ -56,7 +76,9 @@ public class Main {
         System.out.println("==== Fin Semana 3 ====");
         System.out.println("======================");
         System.out.println("=== Fin Semana 4-5 ===");
-        
+        System.out.println("==============================");
+        System.out.println("=== Fin Semana/RoadMap 🤷‍♂️ ====");
+        System.out.println("==============================");
     }
 }
 
